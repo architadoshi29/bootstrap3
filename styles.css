@@ -1,0 +1,112 @@
+.bgground{
+    background-image: url("hero.jpg");
+    height: 700px;;
+
+}
+.hello2{
+    width: 250px !important;
+    height: 80px;
+    background-color: rgb(240,78,60);
+    transition: 1.2s;
+}.hello2:hover{
+    background-color: red !important
+    
+}
+.hello2:hover{
+    transform: translate(10px) !important;
+}
+.text2{
+    font-size: 80px ;
+    color: aliceblue;
+}
+.text1{color: rgb(197, 46, 19);}
+    
+  .lol{
+    color: orangered;
+  }
+.bgmain{
+    background-color: rgb(18,18,18);
+}
+.lol2{
+    color: aliceblue;
+font-size: 50px !important;
+font-weight: bolder !important}
+
+
+.lol5{
+    color: aliceblue ;
+
+}.lol6{
+    color: aliceblue;;
+font-size: 50px;
+font-weight: bolder !important}
+.lolo{
+    background-color: rgb(14,14,14);
+    height: 800px;
+}.big{
+    color: aliceblue;
+}
+.textlol{
+    color: aliceblue;
+}
+.hoverchild{
+    transition: 2s;
+}
+
+.parent:hover .hoverchild{
+    transform: scale(1.1) !important
+}.parent{
+    overflow: hidden;
+}
+.buttonlol{
+    width: 260px;
+    background-color: rgb(240,78,60);
+    height: 80px;
+   color: white;
+}
+.pom{
+    font-size: 50px !important;
+    color: aliceblue;
+}
+.hook{
+    color: aliceblue;font-size: 30px;
+}
+.smilelol{color: orangered;}
+.smile{
+    background-color: rgb(18,18,18);
+}
+.lolg{
+   overflow-x: hidden;
+}.lols{
+    overflow-x:    hidden;
+}
+.halog{
+    background-image: url(hero.jpg);
+    height: 800px;
+}
+
+@media only screen and (min-width: 0px) and (max-width:375px){
+  
+    .text2{
+        font-size: 30px ;}
+        .hello2{
+            width: 270px !important;
+            height: 50px;}
+}
+@media only screen and (min-width: 376px) and (max-width:992px){
+
+
+    
+
+
+
+
+
+
+
+
+    .text2{
+        font-size: 50px ;
+}.hello2{
+    width: 250px !important;
+    height: 60px;}}
