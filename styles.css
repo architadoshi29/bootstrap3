@@ -63,6 +63,7 @@ font-weight: bolder !important}
     background-color: rgb(240,78,60);
     height: 80px;
    color: white;
+   transition: 1s;
 }
 .pom{
     font-size: 50px !important;
@@ -71,9 +72,56 @@ font-weight: bolder !important}
 .hook{
     color: aliceblue;font-size: 30px;
 }
+.buttonlol:hover{background-color: red;
+transform: translate(3px) !important;}
 .smilelol{color: orangered;}
 .smile{
     background-color: rgb(18,18,18);
+}
+
+.hibusha{
+    /* background-image: url("blog_shape.png"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    
+    background-color: rgb(14,14,14);height: 800px; 
+
+    
+
+}
+
+
+.mine{color: aliceblue;}
+.line{
+    background-color: rgb(14,14,14);
+}
+.meow{color: white;}
+
+
+.bgblack{background-color: rgb(18,18,18); ;}
+
+
+.enjoy{color: orangered
+    ;}
+.mine{
+    transition: 0.8s;
+}
+.her{
+    font-size: 50px;
+}
+.mine:hover{
+    color: orangered;
+    transform: translate(9px);
+}
+.widthhi:hover h1{
+    color: orangered !important;
+}
+.widthhi{transform: 2s;}
+.widthhi{
+    width: 300px;
+    height: auto;
+    ;background-color:rgb(18,18,18);
+   
 }
 .lolg{
    overflow-x: hidden;
@@ -89,16 +137,22 @@ font-weight: bolder !important}
   
     .text2{
         font-size: 30px ;}
+        
         .hello2{
             width: 270px !important;
             height: 50px;}
+            .widthhi{
+                width: 300px;
+                height: auto;margin-left: 0px}
 }
 @media only screen and (min-width: 376px) and (max-width:992px){
 
 
     
 
-
+    .widthhi{
+        width: 300px;
+        height: auto;margin-left: 0px}
 
 
 
